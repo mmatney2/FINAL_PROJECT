@@ -1,0 +1,16 @@
+{% extends 'base.html.j2' %}
+
+{% block title %}
+foretellers
+{% endblock %}
+
+{% block content %}
+<h1>My foreteller</h1>
+
+<ul>
+    {% for foreteller in foretellers %}
+        <li> {{foretellers}} </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
